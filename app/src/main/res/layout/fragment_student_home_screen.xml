@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Views.StudentHomeScreen">
+
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/MyLessonsCard"
+        android:layout_width="0dp"
+        app:strokeColor="@color/black"
+        app:strokeWidth="2dp"
+        app:cardCornerRadius="20dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="146dp"
+        android:background="@drawable/border_radius_card"
+        android:layout_marginEnd="44dp"
+        android:layout_marginBottom="68dp"
+        android:elevation="2dp"
+        app:layout_constraintBottom_toTopOf="@+id/ProfilePageCard"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/AllLessonsCard"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="My Lessons"
+            android:textSize="25sp"
+            android:layout_gravity="center"
+            android:textColor="@color/black"
+            android:textAlignment="center"
+            tools:layout_editor_absoluteX="180dp"
+            tools:layout_editor_absoluteY="301dp"
+            tools:ignore="HardcodedText">
+
+        </TextView>
+
+    </com.google.android.material.card.MaterialCardView>
+
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/ProfilePageCard"
+        android:layout_width="0dp"
+        app:strokeColor="@color/black"
+        app:strokeWidth="2dp"
+        app:cardCornerRadius="20dp"
+        android:layout_height="0dp"
+        android:layout_marginEnd="44dp"
+        android:layout_marginBottom="145dp"
+        android:elevation="12dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/ChatCardWidget"
+        app:layout_constraintTop_toBottomOf="@+id/MyLessonsCard"
+        tools:ignore="MissingConstraints">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Profile"
+            android:textSize="25sp"
+            android:textColor="@color/black"
+            android:layout_gravity="center"
+            android:textAlignment="center"
+            tools:layout_editor_absoluteX="180dp"
+            tools:layout_editor_absoluteY="301dp"
+            tools:ignore="HardcodedText">
+
+        </TextView>
+
+    </com.google.android.material.card.MaterialCardView>
+
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/ChatCardWidget"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:strokeColor="@color/black"
+        app:strokeWidth="2dp"
+        app:cardCornerRadius="20dp"
+        android:layout_marginStart="38dp"
+        android:layout_marginEnd="29dp"
+        android:layout_marginBottom="205dp"
+        android:elevation="2dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/ProfilePageCard"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/AllLessonsCard"
+        tools:ignore="MissingConstraints">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textSize="25sp"
+            android:textColor="@color/black"
+            android:text="Chats"
+            android:textAlignment="center"
+            tools:layout_editor_absoluteX="180dp"
+            tools:layout_editor_absoluteY="301dp"
+            tools:ignore="HardcodedText">
+
+        </TextView>
+
+    </com.google.android.material.card.MaterialCardView>
+
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/AllLessonsCard"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:strokeColor="@color/black"
+        app:strokeWidth="2dp"
+        app:cardCornerRadius="20dp"
+        android:layout_marginStart="38dp"
+        android:layout_marginTop="85dp"
+        android:layout_marginEnd="29dp"
+        android:layout_marginBottom="69dp"
+        android:elevation="2dp"
+        app:layout_constraintBottom_toTopOf="@+id/ChatCardWidget"
+        app:layout_constraintEnd_toStartOf="@+id/MyLessonsCard"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="All Lessons"
+            android:textSize="25sp"
+
+            android:textColor="@color/black"
+            android:textAlignment="center"
+            tools:layout_editor_absoluteX="180dp"
+            tools:layout_editor_absoluteY="301dp"
+            tools:ignore="HardcodedText">
+
+        </TextView>
+
+    </com.google.android.material.card.MaterialCardView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

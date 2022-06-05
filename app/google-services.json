@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "842823372478",
+    "project_id": "studentsplatform-faa68",
+    "storage_bucket": "studentsplatform-faa68.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:842823372478:android:6d1205ea6ca07c8f9ad8ef",
+        "android_client_info": {
+          "package_name": "com.example.hackathonstudentsplatform"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "842823372478-9fp8nhaqb975gj453tfrvnnn6jeltgtj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBhOv6PMzfqYiDWgpMKpaPmi3i1NRDBWRI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "842823372478-9fp8nhaqb975gj453tfrvnnn6jeltgtj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
